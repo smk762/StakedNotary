@@ -3,8 +3,8 @@ sudo apt-get update
 sudo apt-get -y install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-openssl-dev bsdmainutils automake curl
 #Install Komodo
 cd ~
-git pull https://github.com/stakedchain/komodo.git
 cd komodo
+git pull 
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 cd ~
