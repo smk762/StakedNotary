@@ -51,7 +51,7 @@ for row in $(echo "${ac_json}" | jq  -r '.[].ac_name'); do
 		let count=count+1;
 		echo "[${chain} chain syncronised on block ${blocks}]"
 	else
-		echo "[${chain} chain not syncronised. On block ${kmd_blocks} of ${kmd_longestchain}]"
+		echo "[${chain} chain not syncronised. On block ${blocks} of ${longestchain}]"
 	fi
 done
 
