@@ -91,3 +91,4 @@ The install scripts come with the tools:
 `slurm`: To monitor network load
 
 `tmux`: To make panes, so you can run these tools and iguana console logs at he same time and detach/reattach when you login/out of the notary node. Google is your friend.
+ 
